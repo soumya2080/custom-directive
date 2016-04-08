@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="../Assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../Assets/css/angular-chart.css" rel="stylesheet">
+    </head>
+    
+    <body ng-app="app">
+    
+        <div ng-controller="myController as ctrl">
+            <div class="container">
+                <metrics metric-data="ctrl.metricList1"></metrics> 
+                <metrics metric-data="ctrl.metricList2"></metrics>
+            </div>
+        </div>
+        
+        
+        <script src="../Assets/js/angular.js"></script>
+        <script src="../Assets/js/jquery-1.12.3.js"></script>
+        <script src="../Assets/js/bootstrap.min.js"></script>
+        <script src="../Assets/js/Chart.js"></script>
+        <script src="../Assets/js/angular-chart.js"></script>
+        <script src="angular-directive.js"></script>
+        <script src="chart-directive.js"></script>
+    </body>
+</html>
