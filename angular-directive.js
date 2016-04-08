@@ -1,4 +1,4 @@
-var app = angular.module('app', ['chart.js']);
+var app = angular.module('myApp', ['chart.js', 'app']);
 
 app.controller("myController",[function () {
     this.metricList1 = ["Metric 1", "Metric 2", "Metric 3"];
